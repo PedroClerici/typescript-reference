@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "ES5",                                  /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
+    "module": "CommonJS",                             /* Specify what module code is generated. */
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "esModuleInterop": true,                          /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables 'allowSyntheticDefaultImports' for type compatibility. */
+    "forceConsistentCasingInFileNames": true,         /* Ensure that casing is correct in imports. */
+    "skipLibCheck": true,                             /* Skip type checking all .d.ts files. */
+
+    /* Strict type-checking options */
+    "strict": true,                                    /* Enable all strict type-checking options. */
+    "noImplicitAny": false,                          /* Enable error reporting for expressions and declarations with an implied 'any' type. */
+    "strictNullChecks": false,                       /* When type checking, take into account 'null' and 'undefined'. */
+    // "strictFunctionTypes": true,                    /* When assigning functions, check to ensure parameters and the return values are subtype-compatible. */
+    // "strictBindCallApply": true,                    /* Check that the arguments for 'bind', 'call', and 'apply' methods match the original function. */
+    // "strictPropertyInitialization": true,           /* Check for class properties that are declared but not set in the constructor. */
+    // "noImplicitThis": true,                         /* Enable error reporting when 'this' is given the type 'any'. */
+    // "useUnknownInCatchVariables": true,             /* Default catch clause variables as 'unknown' instead of 'any'. */
+    // "alwaysStrict": true,                           /* Ensure 'use strict' is always emitted. */
+
+    "noEmitOnError": false                             /* Don't compile files on error. */
+  },
+  "exclude": [
+    "node_modules",                                   /* Node modules are excluded by default. */
+  ],
+}
