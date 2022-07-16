@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Book",
+    "price": 19.99
+  },
+  {
+    "name": "Carpet",
+    "price": 24.79
+  },
+  {
+    "name": "Pencil",
+    "price": 1.99
+  }
+]
